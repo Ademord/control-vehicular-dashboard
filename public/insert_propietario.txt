@@ -1,0 +1,1 @@
+INSERT INTO propietarios (nombres, apellidos, codigo, created_at, updated_at) VALUES ( {fake_nombres}, {fake_apellidos}, trunc(random() * 900 + 1),date(now()), date(now()));

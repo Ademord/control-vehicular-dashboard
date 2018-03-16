@@ -1,0 +1,154 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 70px;
+  min-height: 100%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 20px 15px 0;
+  width: 90%;
+}
+.navbar {
+  padding: .5rem 0rem;
+}
+.navbar .nav-item {
+  padding: 0rem .5rem 0rem;
+}
+nav.navbar > div.container {
+  padding-left: 15px;
+  width: 90%;
+}
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+canvas {
+        display: inline-block !important;
+}
+.starter-template {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAxMC8yOS8xMiKqq3kAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzVxteM2AAABHklEQVRIib2Vyw6EIAxFW5idr///Qx9sfG3pLEyJ3tAwi5EmBqRo7vHawiEEERHS6x7MTMxMVv6+z3tPMUYSkfTM/R0fEaG2bbMv+Gc4nZzn+dN4HAcREa3r+hi3bcuu68jLskhVIlW073tWaYlQ9+F9IpqmSfq+fwskhdO/AwmUTJXrOuaRQNeRkOd5lq7rXmS5InmERKoER/QMvUAPlZDHcZRhGN4CSeGY+aHMqgcks5RrHv/eeh455x5KrMq2yHQdibDO6ncG/KZWL7M8xDyS1/MIO0NJqdULLS81X6/X6aR0nqBSJcPeZnlZrzN477NKURn2Nus8sjzmEII0TfMiyxUuxphVWjpJkbx0btUnshRihVv70Bv8ItXq6Asoi/ZiCbU6YgAAAABJRU5ErkJggg==);
+  padding: 40px 15px;
+  text-align: center;
+
+}
+
+.error-actions {
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.floaty-right {
+  float: right;
+}
+
+.floaty-left {
+  float: left;
+}
+
+.hideme {
+display: none; } 
+
+.text-center{
+  text-align: center !important;
+}
+.blank-space {
+  width: 100%;
+  padding-bottom: 2em;
+}
+
+div.slow {
+    -moz-animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-name: slidein;
+    -webkit-animation-name: slidein;
+    position:relative;
+}
+
+@-moz-keyframes slidein {
+    from {
+        top:-20px;
+    }
+
+    to {
+        top:0px;
+    }
+}
+
+@-webkit-keyframes slidein {
+    from {
+        top:-20px;
+    }
+
+    to {
+        top:0px;
+    }
+}
+
+.flash {
+  -moz-animation: flash 1s ease-out;
+  -moz-animation-iteration-count: 1;
+
+  -webkit-animation: flash 1s ease-out;
+  -webkit-animation-iteration-count: 1;
+
+  -ms-animation: flash 1s ease-out;
+  -ms-animation-iteration-count: 1;
+}
+
+@-webkit-keyframes flash {
+    0% { background-color: none; }
+    50% { background-color: #fbf8b2; }
+    100% { background-color: none; }
+}
+
+@-moz-keyframes flash {
+    0% { background-color: none; }
+    50% { background-color: #fbf8b2; }
+    100% { background-color: none; }
+}
+
+@-ms-keyframes flash {
+    0% { background-color: none; }
+    50% { background-color: #fbf8b2; }
+    100% { background-color: none; }
+}
+.the-table {
+    table-layout: fixed;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.sin-wrap {
+  white-space: nowrap;
+}
+.page-header {
+  padding: 0;
+}
+
+.danger {
+    background-color: rgba(217, 83, 79, 0.2) !important;
+}

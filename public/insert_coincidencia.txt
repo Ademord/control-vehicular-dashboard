@@ -1,0 +1,1 @@
+INSERT INTO coincidencias (camara, lugar, filename, matricula, created_at, updated_at, mime, propietario, mismatch) VALUES ('unset', {fake_lugar}, 'fake_file.jpeg', {fake_matricula}, date(now() - trunc(random()  * 30) * '1 day'::interval), date(now() - trunc(random()  * 30) * '1 day'::interval), 'jpeg', {fake_propietario}, false);
